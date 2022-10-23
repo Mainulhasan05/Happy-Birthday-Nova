@@ -1,4 +1,6 @@
 const body=document.getElementById("body")
+const animated_div=document.getElementById("animated_div");
+animated_div.style.display="none"
 var x = document.getElementById("myAudio");
 var boxStatus=0
 const say_Hi=()=>{
@@ -7,11 +9,13 @@ const say_Hi=()=>{
         x.loop = true;
         x.play(); 
         boxStatus=1;
+        animated_div.style.display="block"
     }
     else{
         x.pause(); 
         boxStatus=0
         body.style.background = "white"
+        animated_div.style.display="none"
     }
 
 
