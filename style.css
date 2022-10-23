@@ -228,3 +228,26 @@ body {
     from {background-color: #8cff00;}
     to {background-color: #1d2d44;}
   }
+
+
+  /* new parts */
+
+  .waviy {
+    position: absolute;
+    margin-bottom: 450px;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    /* color: rgb(29, 27, 27); */
+    color: rgba(146, 90, 99, 0.856);
+    text-transform: uppercase;
+    animation: flip 1s infinite;
+    animation-delay: calc(.01s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
