@@ -1,6 +1,7 @@
 const quotes=[
     "Sending you a birthday wish wrapped with all my love",
     "May this day bring you all the joy you deserve.",
+    "Wishing you a day as special as you are.",
     "“Hope all your birthday wishes come true!”",
     "“Wishing you the biggest slice of happy today.”",
     "“It’s always a treat to wish happy birthday to someone so sweet.”",
@@ -21,6 +22,7 @@ const colors=[
     "#4a09e3",
     "#09c2e3",
     "#d1139b",
+    "#74f52a"
 ]
 
 const body=document.getElementById("body")
@@ -61,8 +63,8 @@ function showWishes(){
             wishCount=0
 
             wishes.className="largeWish"
-            wishes.style.color=colors[Math.floor(Math.random() * 7)]
-            wishes.innerText=quotes[Math.floor(Math.random() * 3)]
+            wishes.style.color=colors[Math.floor(Math.random() * 8)]
+            wishes.innerText=quotes[Math.floor(Math.random() * 8)]
             wishes.style.visibility ="visible"
         }
         wishCount=1
