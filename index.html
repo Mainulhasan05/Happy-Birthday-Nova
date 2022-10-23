@@ -9,7 +9,7 @@
 </head>
 <body id="body">
     
-    <div class="waviy" id="animated_div">
+    <div onclick="showWishes()" class="waviy" id="animated_div">
         
         <span style="--i:1">H</span>
         <span style="--i:2">A</span>
@@ -31,7 +31,7 @@
         <span style="--i:16">V</span>
         <span style="--i:17">A</span>
        </div>
-    </marquee>
+
     <div class="birthday-gift">
         <div class="gift">
         <input onclick="say_Hi()" id='click' type='checkbox'>
@@ -47,12 +47,14 @@
           </div>
           </div>
       </div>
-
+      <div id="wish" class="smallWish" style="position: absolute; visibility: hidden;">
+        
+      </div>
       <audio id="myAudio">
         <source src="HBD.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
 
 </body>
-<script src="script.js"></script>
+<script  src="script.js"></script>
 </html>
