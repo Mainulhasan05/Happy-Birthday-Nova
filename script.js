@@ -1,23 +1,26 @@
 const quotes=[
     "Sending you a birthday wish wrapped with all my love",
-    "Happy birthday! I hope you’re not looking for a present because my presence is my gift to you.",
+    "May this day bring you all the joy you deserve.",
     "“Hope all your birthday wishes come true!”",
     "“Wishing you the biggest slice of happy today.”",
     "“It’s always a treat to wish happy birthday to someone so sweet.”",
     "“Sending your way a bouquet of happiness…To wish you a very happy birthday!”",
+
+    "Happy birthday! I hope you’re not looking for a present because my presence is my gift to you.",
 
 
 
 ]
 
 const colors=[
-    "#d1139b",
+    
     "#e3105d",
     "#13e310",
     "#9de310",
     "#e37910",
     "#4a09e3",
     "#09c2e3",
+    "#d1139b",
 ]
 
 const body=document.getElementById("body")
