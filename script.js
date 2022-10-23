@@ -71,7 +71,7 @@ function showWishes(){
             wishes.className="smallWish"
             wishes.style.visibility="hidden"
             
-        },4000)
+        },3500)
         wishCount=0
     
     
